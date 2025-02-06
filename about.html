@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us</title>
+<style>
+  body {
+    display: flex;
+    flex-direction: column; /* উল্লম্বভাবে সাজানোর জন্য */
+    justify-content: flex-start; /* উপরে সারিবদ্ধ করার জন্য */
+    align-items: center; /* অনুভূমিকভাবে মাঝখানে */
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .header-box {
+    height: 60px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: blue;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 5px; /* উপরে থেকে কিছুটা জায়গা ছাড়ার জন্য */
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: gold;
+  }
+
+  .home-button {
+    background-color: gold;
+    color: blue;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.6em;
+  }
+</style>
+</head>
+<body>
+  <div class="header-box">
+    <div style="display: flex; align-items: center;">
+      <img class="logo" src="1737502132994.jpg" alt="Logo">
+      <h1 class="title">Technical Expart</h1>
+    </div>
+    <button class="home-button" onclick="window.location.href='home.html'">Home</button>
+  </div>
+  <p>
+    It is a about page <br>
+    Techncal Expart <br>
+    You Tube Channel
+  </p>
+</body>
+</html>
